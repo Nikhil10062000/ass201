@@ -9,11 +9,11 @@ var num1=prompt("Enter the number");
     alert(num3);
   
   if (num1 < num2 && num1 < num3)
-  { console.log("num1");
+  { alert("Lowest of all " + num1);
     }
     else if (num2 < num1 && num2 < num3)
-  { console.log("num2");
+  { alert("Lowest of all " +num2);
     }
     else {
-    console.log("num3");
+    alert("Lowest of all " +num3);
 }
